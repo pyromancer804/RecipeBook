@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="1f250a6b-6ae9-49ba-9828-fd4960ecb06e" ChangeDateTime="04/17/2017 11:47:07">
+    <Property Name="ElementName" Value="[dbo].[Recipe].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Recipe]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c889c34c-b6c4-4be5-8554-42c6a9be68dd" ChangeDateTime="04/17/2017 11:49:22">
+    <Property Name="ElementName" Value="[dbo].[RecipeIngredients].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[RecipeIngredients]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="520b9079-9ccb-48e6-8048-4cb08170a453" ChangeDateTime="04/17/2017 11:51:58">
+    <Property Name="ElementName" Value="[dbo].[RecipeIngredients].[Mesurment]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[RecipeIngredients]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Measurement" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cf090855-963b-4fcd-8356-ea74ba317daa" ChangeDateTime="04/17/2017 11:52:47">
+    <Property Name="ElementName" Value="[dbo].[RecipeSteps].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[RecipeSteps]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SID" />
+  </Operation>
+</Operations>
